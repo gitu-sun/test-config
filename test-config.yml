@@ -3,7 +3,7 @@ spring:
     active: test
 
 
----
+
 
 server:
   port: 8201
@@ -14,7 +14,7 @@ spring:
     name: test-cloud-dev-2.0
 
 
----
+
 
 spring:
   profiles: test
