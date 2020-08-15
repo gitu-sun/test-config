@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: test
+    
+server:
+  port: 8201
+  
+spring:
+  profiles: dev
+  application:
+    name: test-dev
+    
+spring:
+  profiles: test
+  application:
+    name: test-test
+    
+      
